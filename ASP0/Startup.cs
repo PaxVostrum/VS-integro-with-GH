@@ -27,7 +27,7 @@ namespace ASP0
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync($"Hello World! \nTHIS IS SOMETHING I'VE ADDED");
             });
         }
     }
